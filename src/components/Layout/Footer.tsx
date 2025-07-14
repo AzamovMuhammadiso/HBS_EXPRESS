@@ -108,7 +108,7 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
+            {/* <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-4">
               <li className="flex items-start space-x-3">
                 <MapPin size={20} className="text-accent mt-1 flex-shrink-0" />
@@ -130,7 +130,7 @@ const Footer = () => {
                   infommbtrucking@gmail.com
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
 
