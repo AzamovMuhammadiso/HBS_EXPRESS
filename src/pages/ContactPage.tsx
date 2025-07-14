@@ -55,7 +55,7 @@ const ContactPage = () => {
                 Contact Information
               </h3>
 
-              <div className="space-y-6">
+              {/* <div className="space-y-6">
                 <div className="flex items-start">
                   <MapPin
                     size={24}
@@ -115,7 +115,7 @@ const ContactPage = () => {
                     </p>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </motion.div>
 
             <motion.div
