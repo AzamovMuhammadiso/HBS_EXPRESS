@@ -50,7 +50,7 @@ const ServicesSection = () => {
       <div className="container-custom">
         <h2 className="section-title">Our Services</h2>
         <p className="text-center text-lg max-w-3xl mx-auto mb-12">
-          MMB Trucking provides comprehensive transportation solutions designed to meet your specific needs.
+          HBS EXPRESS provides comprehensive transportation solutions designed to meet your specific needs.
           Our range of services ensures we can handle any shipping requirement efficiently.
         </p>
 

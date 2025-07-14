@@ -12,11 +12,11 @@ const AboutSection = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="section-title">About MMB Trucking</h2>
+          <h2 className="section-title">About HBS EXPRESS</h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-lg mb-6">
-                Founded with a commitment to excellence, MMB Trucking has
+                Founded with a commitment to excellence, HBS EXPRESS has
                 established itself as a leader in the transportation industry.
                 We combine cutting-edge technology with experienced
                 professionals to ensure your freight arrives safely and on time.
@@ -51,7 +51,7 @@ const AboutSection = () => {
             <div className="rounded-lg overflow-hidden shadow-lg">
               <img
                 src={Fleet}
-                alt="MMB Trucking fleet"
+                alt="HBS EXPRESS fleet"
                 className="w-full h-full object-cover"
               />
             </div>

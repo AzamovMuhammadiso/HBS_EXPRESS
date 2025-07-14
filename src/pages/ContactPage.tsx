@@ -5,7 +5,7 @@ import { MapPin, Phone, Mail, Clock } from "lucide-react";
 
 const ContactPage = () => {
   useEffect(() => {
-    document.title = "Contact Us | MMB Trucking LLC";
+    document.title = "Contact Us | HBS EXPRESS LLC";
   }, []);
 
   return (
@@ -132,7 +132,7 @@ const ContactPage = () => {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="MMB Trucking Location"
+                title="HBS EXPRESS Location"
               ></iframe>
             </motion.div>
           </div>

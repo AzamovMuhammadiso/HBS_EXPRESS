@@ -18,7 +18,7 @@ const servicesData = [
   },
   {
     title: 'Long Haul / Short Haul',
-    description: 'Whether you need goods transported across the country or within a local region, MMB Trucking has you covered. Our long and short haul services provide flexible solutions for all your transportation needs.',
+    description: 'Whether you need goods transported across the country or within a local region, HBS EXPRESS has you covered. Our long and short haul services provide flexible solutions for all your transportation needs.',
     imageUrl: 'https://images.pexels.com/photos/1178448/pexels-photo-1178448.jpeg',
     features: [
       'Long-distance interstate transportation',
@@ -58,7 +58,7 @@ const servicesData = [
 
 const ServicesPage = () => {
   useEffect(() => {
-    document.title = 'Our Services | MMB Trucking LLC';
+    document.title = 'Our Services | HBS EXPRESS LLC';
   }, []);
 
   return (
@@ -80,7 +80,7 @@ const ServicesPage = () => {
             transition={{ delay: 0.3, duration: 0.6 }}
             className="text-xl text-center max-w-3xl mx-auto text-white"
           >
-            MMB Trucking provides comprehensive transportation and logistics solutions 
+            HBS EXPRESS provides comprehensive transportation and logistics solutions 
             tailored to meet your specific business needs.
           </motion.p>
         </div>
