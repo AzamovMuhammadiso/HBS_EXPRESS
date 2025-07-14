@@ -21,7 +21,7 @@ const Footer = () => {
             <div className="flex items-center space-x-2 mb-4">
               <Truck size={28} className="text-accent" />
               <span className="text-xl font-bold font-montserrat">
-                MMB Trucking
+                HBS EXPRESS
               </span>
             </div>
             <p className="mb-4 text-gray-300">
@@ -135,7 +135,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 pt-6 border-t border-gray-700 text-center text-gray-400">
-          <p>&copy; {currentYear} MMB Trucking LLC. All rights reserved.</p>
+          <p>&copy; {currentYear} HBS EXPRESS LLC. All rights reserved.</p>
         </div>
       </div>
     </footer>

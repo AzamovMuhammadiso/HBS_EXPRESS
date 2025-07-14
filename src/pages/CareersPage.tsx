@@ -9,7 +9,7 @@ const jobListings = [
     title: 'CDL Class A Driver',
     location: 'Dallas, TX',
     type: 'Full-time',
-    description: 'We\'re looking for experienced CDL Class A Drivers to join our growing team. As a driver with MMB Trucking, you\'ll be responsible for safely transporting freight throughout the region while representing our company with professionalism and reliability.',
+    description: 'We\'re looking for experienced CDL Class A Drivers to join our growing team. As a driver with HBS EXPRESS, you\'ll be responsible for safely transporting freight throughout the region while representing our company with professionalism and reliability.',
     requirements: [
       'Valid Class A CDL with clean driving record',
       'Minimum 2 years of verifiable driving experience',
@@ -73,7 +73,7 @@ const jobListings = [
 
 const CareersPage = () => {
   useEffect(() => {
-    document.title = 'Careers | MMB Trucking LLC';
+    document.title = 'Careers | HBS EXPRESS LLC';
   }, []);
 
   const benefitsList = [

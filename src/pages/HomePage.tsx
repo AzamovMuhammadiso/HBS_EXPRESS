@@ -7,7 +7,7 @@ import CallToAction from '../components/Home/CallToAction';
 
 const HomePage = () => {
   useEffect(() => {
-    document.title = 'MMB Trucking LLC - Fast. Reliable. Nationwide.';
+    document.title = 'HBS EXPRESS LLC - Fast. Reliable. Nationwide.';
   }, []);
 
   return (

@@ -46,7 +46,7 @@ const WhyChooseUs = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="section-title">Why Choose MMB Trucking</h2>
+          <h2 className="section-title">Why Choose HBS EXPRESS</h2>
           <p className="text-center text-lg max-w-3xl mx-auto mb-12 text-gray-300">
             With years of experience in the transportation industry, we've built our reputation on reliability,
             safety, and exceptional service. Here's what sets us apart:

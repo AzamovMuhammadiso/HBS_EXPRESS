@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import LogoBlack from "../../assets/logoBlack.png";
+import LogoBlack from "../../assets/logo1.png";
 interface NavbarProps {
   scrolled: boolean;
 }
@@ -23,13 +23,20 @@ const Navbar = ({ scrolled }: NavbarProps) => {
   return (
     <header className="fixed w-full z-50 bg-white shadow-md transition-all duration-300">
       <div className="container-custom p-1 flex justify-between items-center">
-        <Link to="/" className="flex items-center gap-2">
-          <img
-            src={LogoBlack}
-            alt="MMB Trucking Logo"
-            className="w-36 h-auto object-contain transition-all duration-300"
-          />
-        </Link>
+       <Link
+  to="/"
+  onClick={() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }}
+  className="flex items-center gap-2"
+>
+  <img
+    src={LogoBlack}
+    alt="HBS EXPRESS Logo"
+    className="w-36 h-auto object-contain"
+  />
+</Link>
+
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-24">
