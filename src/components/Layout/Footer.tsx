@@ -31,7 +31,7 @@ const Footer = () => {
             <div className="flex space-x-4">
               <a
                 target="_blank"
-                href="https://www.instagram.com/mmb.trucking/"
+                href="https://www.instagram.com/hbs.express_/"
                 aria-label="Facebook"
                 className="text-gray-300 hover:text-accent transition-colors"
               >
@@ -39,7 +39,7 @@ const Footer = () => {
               </a>
               <a
                 target="_blank"
-                href="https://www.instagram.com/mmb.trucking/"
+                href="https://www.instagram.com/hbs.express_/"
                 aria-label="Instagram"
                 className="text-gray-300 hover:text-accent transition-colors"
               >
@@ -47,7 +47,7 @@ const Footer = () => {
               </a>
               <a
                 target="_blank"
-                href="https://www.instagram.com/mmb.trucking/"
+                href="https://www.instagram.com/hbs.express_/"
                 aria-label="LinkedIn"
                 className="text-gray-300 hover:text-accent transition-colors"
               >
